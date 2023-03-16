@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet type="text/xsl" href="xml/menu/user.xsl"?>
+<list>
+  <users>
+    <user id="1">
+      <name>Annabelle</name>
+      <email>anna@gmail.com</email>
+      <address>999 Road</address>
+      <phone_number>017-1254545</phone_number>
+      <role_level>1</role_level>
+      <email_verified_at/>
+    </user>
+    <user id="2">
+      <name>Elaine Chia</name>
+      <email>elaine@gmail.com</email>
+      <address>789 Road</address>
+      <phone_number>017-5488521</phone_number>
+      <role_level>2</role_level>
+      <email_verified_at/>
+    </user>
+    <user id="3">
+      <name>Taylor Ng</name>
+      <email>taylor@gmail.com</email>
+      <address>456 Road</address>
+      <phone_number>011-4567231</phone_number>
+      <role_level>8</role_level>
+      <email_verified_at/>
+    </user>
+  </users>
+</list>

@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet type="text/xsl" href="xml/menu/menu.xsl"?>
+<menu>
+  <items>
+    <item menu_id="M10">
+      <name>Cheese Lasagna</name>
+      <category>Pasta</category>
+      <image>M10.png</image>
+      <price>22</price>
+    </item>
+    <item menu_id="M9">
+      <name>Margheritta</name>
+      <category>Pizza</category>
+      <image>M9.png</image>
+      <price>10</price>
+    </item>
+    <item menu_id="M7">
+      <name>Ham &amp; Pineapple</name>
+      <category>Pizza</category>
+      <image>M7.png</image>
+      <price>18</price>
+    </item>
+    <item menu_id="M6">
+      <name>Bacon Crispy Pizza</name>
+      <category>Pizza</category>
+      <image>M6.png</image>
+      <price>24</price>
+    </item>
+    <item menu_id="M5">
+      <name>American Pizza</name>
+      <category>Pizza</category>
+      <image>M5.png</image>
+      <price>13</price>
+    </item>
+    <item menu_id="M4">
+      <name>Caucasian Pizza</name>
+      <category>Pizza</category>
+      <image>M4.png</image>
+      <price>26</price>
+    </item>
+    <item menu_id="M2">
+      <name>Greek Pizza</name>
+      <category>Pizza</category>
+      <image>M2.png</image>
+      <price>27</price>
+    </item>
+    <item menu_id="M1">
+      <name>Italian Pizza</name>
+      <category>Pizza</category>
+      <image>M1.png</image>
+      <price>29</price>
+    </item>
+  </items>
+</menu>

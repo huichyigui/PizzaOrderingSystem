@@ -1,0 +1,78 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet type="text/xsl" href="xml/menu/delivery.xsl"?>
+<list>
+  <records>
+    <record deliveryID="D1">
+      <location>01, Jalan Genting Klang</location>
+      <startTime>2022-09-23 04:36:46</startTime>
+      <endTime>2022-09-23 04:36:46</endTime>
+      <status>Pending</status>
+    </record>
+    <record deliveryID="D10">
+      <location/>
+      <startTime>2022-09-23 18:29:32</startTime>
+      <endTime>2022-09-23 18:29:32</endTime>
+      <status>Pending</status>
+    </record>
+    <record deliveryID="D11">
+      <location/>
+      <startTime>2022-09-23 18:32:08</startTime>
+      <endTime>2022-09-23 18:32:08</endTime>
+      <status>Pending</status>
+    </record>
+    <record deliveryID="D12">
+      <location/>
+      <startTime>2022-09-23 18:33:28</startTime>
+      <endTime>2022-09-23 18:33:28</endTime>
+      <status>Pending</status>
+    </record>
+    <record deliveryID="D2">
+      <location>02, Jalan Genting Klang</location>
+      <startTime>2022-09-23 05:06:46</startTime>
+      <endTime>2022-09-23 05:06:46</endTime>
+      <status>Processing</status>
+    </record>
+    <record deliveryID="D3">
+      <location>03, Jalan Genting Klang</location>
+      <startTime>2022-09-23 05:36:46</startTime>
+      <endTime>2022-09-23 05:36:46</endTime>
+      <status>Delivering</status>
+    </record>
+    <record deliveryID="D4">
+      <location>04, Jalan Genting Klang</location>
+      <startTime>2022-09-23 06:06:46</startTime>
+      <endTime>2022-09-23 06:06:46</endTime>
+      <status>Delivered</status>
+    </record>
+    <record deliveryID="D5">
+      <location/>
+      <startTime>2022-09-23 12:09:29</startTime>
+      <endTime>2022-09-23 12:09:29</endTime>
+      <status>Pending</status>
+    </record>
+    <record deliveryID="D6">
+      <location/>
+      <startTime>2022-09-23 17:40:13</startTime>
+      <endTime>2022-09-23 17:40:13</endTime>
+      <status>Pending</status>
+    </record>
+    <record deliveryID="D7">
+      <location/>
+      <startTime>2022-09-23 17:48:30</startTime>
+      <endTime>2022-09-23 17:48:30</endTime>
+      <status>Pending</status>
+    </record>
+    <record deliveryID="D8">
+      <location/>
+      <startTime>2022-09-23 17:52:46</startTime>
+      <endTime>2022-09-23 17:52:46</endTime>
+      <status>Pending</status>
+    </record>
+    <record deliveryID="D9">
+      <location/>
+      <startTime>2022-09-23 17:56:40</startTime>
+      <endTime>2022-09-23 17:56:40</endTime>
+      <status>Pending</status>
+    </record>
+  </records>
+</list>

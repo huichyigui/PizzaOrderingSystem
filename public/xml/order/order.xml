@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet type="text/xsl" href="xml/order/order.xsl"?>
+<orders>
+  <order payment_id="1">
+    <totalPrice>20.00</totalPrice>
+    <paymentMethod>E-wallet</paymentMethod>
+    <name>Anna</name>
+    <time>2022-09-23 12:09:29</time>
+    <address>Dfinds</address>
+    <item menu_id="m9">
+      <image>M9.png</image>
+      <menu_name>Margheritta</menu_name>
+      <quantity>2</quantity>
+      <price>20.00</price>
+    </item>
+  </order>
+</orders>
