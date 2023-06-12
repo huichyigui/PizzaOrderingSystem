@@ -1,64 +1,73 @@
-<p align="center"><a href="https://laravel.com" target="_blank"><img src="https://raw.githubusercontent.com/laravel/art/master/logo-lockup/5%20SVG/2%20CMYK/1%20Full%20Color/laravel-logolockup-cmyk-red.svg" width="400" alt="Laravel Logo"></a></p>
+<h3>To whom it may concern: </h3>
+<h3>Please follow these steps carefully to implement all the necessary software to deploy our project.</h3>
 
-<p align="center">
-<a href="https://travis-ci.org/laravel/framework"><img src="https://travis-ci.org/laravel/framework.svg" alt="Build Status"></a>
-<a href="https://packagist.org/packages/laravel/framework"><img src="https://img.shields.io/packagist/dt/laravel/framework" alt="Total Downloads"></a>
-<a href="https://packagist.org/packages/laravel/framework"><img src="https://img.shields.io/packagist/v/laravel/framework" alt="Latest Stable Version"></a>
-<a href="https://packagist.org/packages/laravel/framework"><img src="https://img.shields.io/packagist/l/laravel/framework" alt="License"></a>
-</p>
+Installing PHP 8.1.6
+------------------------------
+1. Download PHP 8.1.6 source file from the link below:
+(https://windows.php.net/download#php-8.1)
+2. Extract the file and rename it to "php"
+3. Move the file to C:\.
+4. Search for “Edit the system environment variables” via windows search engine.
+5. Click on Environmental Variables…
+6. Click on Path in System variables
+7. Click on New then enter "C:\php".
+8. Move up the path to the top of the list.
 
-## About Laravel
+Installing XAMPP
+-----------------------------
+1. Download XAMPP from this link for PHP 8.1.6.
+(https://www.apachefriends.org/download.html)
+2. Make sure to download the version that matches your operating system.
+3. Once finished downloading, install into the default path provided by the installer.
 
-Laravel is a web application framework with expressive, elegant syntax. We believe development must be an enjoyable and creative experience to be truly fulfilling. Laravel takes the pain out of development by easing common tasks used in many web projects, such as:
+Installing Composer
+------------------------------
+1. Download Composer from this link.
+(https://getcomposer.org/Composer-Setup.exe)
+2. Run the installation.
 
-- [Simple, fast routing engine](https://laravel.com/docs/routing).
-- [Powerful dependency injection container](https://laravel.com/docs/container).
-- Multiple back-ends for [session](https://laravel.com/docs/session) and [cache](https://laravel.com/docs/cache) storage.
-- Expressive, intuitive [database ORM](https://laravel.com/docs/eloquent).
-- Database agnostic [schema migrations](https://laravel.com/docs/migrations).
-- [Robust background job processing](https://laravel.com/docs/queues).
-- [Real-time event broadcasting](https://laravel.com/docs/broadcasting).
+Installing Laravel Framework
+-------------------------------------------
+1. Open command prompt.
+2. Copy and paste then run  “composer global require laravel/installer”.
 
-Laravel is accessible, powerful, and provides tools required for large, robust applications.
+Verifying Laravel Framework Version and PHP Version
+-------------------------------------------------------------------------------
+1. Open command prompt copy and paste then run “php -v”.
+2. Open command prompt copy and paste then run “laravel --version”
+3. Make sure both of these commands return their version. If errors exist, please go through the installation again.
 
-## Learning Laravel
+Creating a Database
+----------------------------------
+1. Run XAMPP, turn on Apache and MySQL by clicking both of their start buttons.
+2. Create a database in mysql by going to the link below.
+(http://localhost/phpmyadmin/)
+3. Click on "new" at the sidebar on the left.
+4. Enter "pizzaordering" in the "Database name" input field.
+5. Click Create.
 
-Laravel has the most extensive and thorough [documentation](https://laravel.com/docs) and video tutorial library of all modern web application frameworks, making it a breeze to get started with the framework.
+Deploying TapNGo Pizza
+----------------------------------------
+1. Move the file "pizzaordersystem" to this path "C:\xampp\htdocs\".
+2. Run XAMPP, turn on Apache and MySQL by clicking both of their start buttons.
+3. Once done moving, open a terminal window on that file by Shift + Right Click then click on Open Powershell window here.
+4. Make sure database is created, refer to [Create a Database] if haven't create.
+5. Run the following command on the terminal “php artisan migrate --seed”.
+6. Once complete, run the following command to deploy the project “php artisan serve”.
+7. Run this code in your browser to launch the project “http://127.0.0.1:8000”.
 
-If you don't feel like reading, [Laracasts](https://laracasts.com) can help. Laracasts contains over 2000 video tutorials on a range of topics including Laravel, modern PHP, unit testing, and JavaScript. Boost your skills by digging into our comprehensive video library.
+Test Web Services
+-------------------------------
+1. Move the file "WebServiceTest" to this path "C:\xampp\htdocs\".
+2. Run XAMPP, turn on Apache and MySQL by clicking both of their start buttons.
+3. Locate this path in your browser to launch the Test Webservice website “http://localhost/WebServiceTest/index.php”.
 
-## Laravel Sponsors
+Dummy Account:
 
-We would like to extend our thanks to the following sponsors for funding Laravel development. If you are interested in becoming a sponsor, please visit the Laravel [Patreon page](https://patreon.com/taylorotwell).
+-Customer:
+Name	:anna@gmail.com
+PW	:anna1234!
 
-### Premium Partners
-
-- **[Vehikl](https://vehikl.com/)**
-- **[Tighten Co.](https://tighten.co)**
-- **[Kirschbaum Development Group](https://kirschbaumdevelopment.com)**
-- **[64 Robots](https://64robots.com)**
-- **[Cubet Techno Labs](https://cubettech.com)**
-- **[Cyber-Duck](https://cyber-duck.co.uk)**
-- **[Many](https://www.many.co.uk)**
-- **[Webdock, Fast VPS Hosting](https://www.webdock.io/en)**
-- **[DevSquad](https://devsquad.com)**
-- **[Curotec](https://www.curotec.com/services/technologies/laravel/)**
-- **[OP.GG](https://op.gg)**
-- **[WebReinvent](https://webreinvent.com/?utm_source=laravel&utm_medium=github&utm_campaign=patreon-sponsors)**
-- **[Lendio](https://lendio.com)**
-
-## Contributing
-
-Thank you for considering contributing to the Laravel framework! The contribution guide can be found in the [Laravel documentation](https://laravel.com/docs/contributions).
-
-## Code of Conduct
-
-In order to ensure that the Laravel community is welcoming to all, please review and abide by the [Code of Conduct](https://laravel.com/docs/contributions#code-of-conduct).
-
-## Security Vulnerabilities
-
-If you discover a security vulnerability within Laravel, please send an e-mail to Taylor Otwell via [taylor@laravel.com](mailto:taylor@laravel.com). All security vulnerabilities will be promptly addressed.
-
-## License
-
-The Laravel framework is open-sourced software licensed under the [MIT license](https://opensource.org/licenses/MIT).
+-Admin:
+Name	:taylor@gmail.com
+PW	:tehh1234!
